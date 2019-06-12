@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1230764400,
-      "filename": "ota-package.zip",
-      "id": "5eb63bbbe01eeed093cb22bb8f5acdc3",
-      "romtype": "nightly",
-      "size": 314572800,
-      "url": "https://example.com/ota-package.zip",
-      "version": "pie"
+      "datetime": 1560363265,
+      "filename": "AOSiP-9.0-Pizza-mido-20190612.zip",
+      "id": "641aa9ba1a64486bd330a647b37153d5",
+      "romtype": "UNOFFICIAL",
+      "size": 724423481,
+      "url": "https://del.dog/nkvfoxz",
+      "version": "9.0"
     }
   ]
 }
