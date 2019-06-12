@@ -20,6 +20,16 @@ Pulse fixes and improvements
  - Add pulse lava lamp start and end colours
  - Add bar animation smoothing
  - Fix defaulting to user colour when no albumart colour is available
+Redesign the backend of Pulse for stabler functionality
+Align "Owner Info" as per the clock style
+Add an advanced location tile to cycle through battery saving, device only and High Accuracy modes
+Show a summary when render mode for pulse is changed to reflect the change in selected mode
+Show more than 4 items in every Settings page
+Translation imports and fixes
+Fix data usage details in QS when using dark/black theme
+Remove the 5 option from number of quickbar colums for QS
+Fix date being broken on some languages in Quickspace (At-a-glance widget on launcher3)
+Remove some prebuilt Google Apps since every GApps package already includes them
 
 ====
 MAY
