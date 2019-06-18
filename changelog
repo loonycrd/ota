@@ -1,21 +1,12 @@
-Merged in June 2019 Security Patches
-Enable full dexpreopt for builds
-Add rootless substratum support (OMS-pie)
-All upstream changes from AOSiP sources, check gerrit
-Add some android Q UI features
-Tint "It's" text on Q Clock based on wallpaper primary color
- - Fallsback to system accent if wallpaper's primary
-   color cannot be determined
-Translation import and fixes
-Stop USB debugging window from being dismissed when tapping outside the dialog
-Enable and fix QS detail view (can view available WiFis and BT devices from QS for example)
-Pulse fixes and improvements
-Add an advanced location tile to cycle through battery saving, device only and High Accuracy modes
-Fix data usage details in QS when using dark/black theme
-Add custom doze, it includes (may vary with device, don't complain if some are missing):
-Add less boring/annoying heads-up option
-Add big circle battery
-Add old signal icon support
-Add deep sleep info to Uptime
-Add Gaming Mode tile (Change ringer mode to vibrate and Disable Heads Up)
-Add Aggressive Battery settings
+Reduce the padding between media controls & seekbar
+Fixed auto-brightness first screen update
+Themes: Convert sync icons to vector so they theme correctly
+Substratum: Remove rootless OMS support
+  - Reported to be buggy by some users
+  - Revert back to root mode
+Settings: Show more than 4 items in the menus
+vendor: remove Prebuilt apps
+  - WellbeingPrebuilt
+  - TurboPrebuilt
+  - these are included in most gapps and not needed if not using gapps
+Rework DTBO image generation
