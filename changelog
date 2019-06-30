@@ -1,12 +1,14 @@
-Reduce the padding between media controls & seekbar
-Fixed auto-brightness first screen update
-Themes: Convert sync icons to vector so they theme correctly
-Substratum: Remove rootless OMS support
-  - Reported to be buggy by some users
-  - Revert back to root mode
-Settings: Show more than 4 items in the menus
-vendor: remove Prebuilt apps
-  - WellbeingPrebuilt
-  - TurboPrebuilt
-  - these are included in most gapps and not needed if not using gapps
-Rework DTBO image generation
+Reduce padding between media control and seekbar in media notifications
+Fix auto-brightness not taking into effect immediately after enabling it
+Some DTBO image fixes
+Fix settings crashing when an appops edge case occurs
+Convert sync icons to vector to allow theming
+Add some icons to the Ambient Display section of Settings
+Some dock accessory fixes
+Translation import and fixes
+Pop-up an error when renaming a file in Documents app and something goes wrong
+Set delay for screenshot shortcut (vol down+power) to 0
+Some encryption fixes
+Update German APNs
+Clang fixes for kernels
+Enable/disable call recording for various countries
